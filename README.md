@@ -1,9 +1,10 @@
 # OpenGoal-Mod-Base
-Serves as a base template for openGOAL mods that will be supported via [opengoal-mod-launcher](https://github.com/OpenGOAL-Unofficial-Mods/opengoal-mod-launcher).
+This mod showcases all texture replacements I did for OpenGOAL. This was created as easy and convinient way to try all the textures in Mod Launcher. There aren't any original textures from the game, I repainted all of them from scratch.
 
-- Please ensure you are not committing copyrighted material to your repo (the `.gitignore` should help prevent this). 
-- Generally speaking you should only be updating certain directories/files:
-  - the executable binaries (`goalc.exe`, `gk.exe`, `extractor.exe`)
-  - GOAL code (`/data/goal_src`)
-  - Assets specific to the PC Port (`/data/game/assets/jak1/`)
-  - Decompiler config (`/data/decompiler/config`)
+This includes:
+- Hot Wheels Zoomer
+- Spyro Flut Flut
+- Thaww (Ice Klaww)
+- Precursor Basin with Eyes
+- Ratatouille (Boggy rats as Remy)
+- Black Bats
