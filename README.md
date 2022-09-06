@@ -4,7 +4,7 @@ This mod showcases all texture replacements I did for OpenGOAL. This was created
 This includes:
 - Hot Wheels Zoomer
 - Spyro Flut Flut
-- ~~Thaww (Ice Klaww)~~
+- Thaww (Ice Klaww w/ Edited particles and weather)
+- Ratatouille (Boggy rats as Remy)
+- Almost realistic Bats (Boggy)
 - ~~Precursor Basin with Eyes~~
-- ~~Ratatouille (Boggy rats as Remy)~~
-- ~~Black Bats~~

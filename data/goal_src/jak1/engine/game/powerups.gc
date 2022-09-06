@@ -522,6 +522,9 @@
       (('snow)
        (update-snow self)
        )
+      (('ogre)
+        (update-snow self)
+        )
       )
     )
   (cond

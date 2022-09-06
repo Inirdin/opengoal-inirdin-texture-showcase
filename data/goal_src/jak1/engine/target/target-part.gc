@@ -1995,7 +1995,11 @@
   :duration 75
   :linger-duration 600
   :bounds (static-bspherem 0 0 0 2)
-  :parts ((sp-item 2003) (sp-item 2004) (sp-item 2005) (sp-item 2006))
+  :parts (
+    (sp-item 2003)
+    (sp-item 2004)
+    (sp-item 2005)
+    (sp-item 2006))
   )
 
 (defpartgroup group-burn-death
@@ -2013,6 +2017,7 @@
     (sp-copy-from-other spt-scale-y -4)
     (sp-flt spt-r 256.0)
     (sp-rnd-flt spt-g 0.0 128.0 1.0)
+    (sp-flt spt-r 128.0)
     (sp-rnd-flt spt-a 128.0 128.0 1.0)
     (sp-rnd-flt spt-vel-y (meters 0.013333334) (meters 0.04) 1.0)
     (sp-flt spt-scalevel-x (meters -0.0023333333))
@@ -2036,7 +2041,7 @@
     (sp-copy-from-other spt-scale-y -4)
     (sp-flt spt-r 128.0)
     (sp-rnd-flt spt-g 0.0 128.0 1.0)
-    (sp-flt spt-b 0.0)
+    (sp-flt spt-b 96.0)
     (sp-rnd-flt spt-a 32.0 64.0 1.0)
     (sp-rnd-flt spt-vel-y (meters 0.053333335) (meters 0.053333335) 1.0)
     (sp-flt spt-scalevel-x (meters 0.023529412))
@@ -2062,7 +2067,7 @@
     (sp-copy-from-other spt-scale-y -4)
     (sp-flt spt-r 128.0)
     (sp-rnd-flt spt-g 0.0 128.0 1.0)
-    (sp-flt spt-b 0.0)
+    (sp-flt spt-b 128.0)
     (sp-rnd-flt spt-a 32.0 64.0 1.0)
     (sp-rnd-flt spt-vel-y (meters 0) (meters 0.0016666667) 1.0)
     (sp-flt spt-scalevel-x (meters 0.04444444))
@@ -2269,7 +2274,3 @@
     (sp-func spt-func 'part-first-person-hud-selector-func)
     )
   )
-
-
-
-
